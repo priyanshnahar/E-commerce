@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Noto Serif Lao', serif;;
+  font-family: "Noto Serif Lao", serif;
 }
 
 html {
@@ -218,7 +218,6 @@ body {
   color: #b3a1ef;
 }
 
-
 /* video 50:06 when product section start */
 /* #feature .fe-box:nth-child(2)h6 {
   background-color: #efa1d9;
@@ -226,23 +225,22 @@ body {
 
 /* PRODUCTS */
 
-#product1 .pro-container{
+#product1 .pro-container {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
   flex-wrap: wrap;
 }
 
-#product1{
+#product1 {
   text-align: center;
 }
 
-
-#product1 .pro{
+#product1 .pro {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
-  border: 1px ; /* Added border-style */
+  border: 1px; /* Added border-style */
   position: relative;
 }
 
@@ -260,16 +258,15 @@ body {
   margin: -16px 0 16px 0;
 }
 
-  #product1 .pro .plus {
-    width: 15px;
-    height: 25px;
-    border-radius: 50px;
-    color: #807c7c;
-    position: absolute;
-    bottom: 38px;
-    right: 10px;
-  }
-
+#product1 .pro .plus {
+  width: 15px;
+  height: 25px;
+  border-radius: 50px;
+  color: #807c7c;
+  position: absolute;
+  bottom: 38px;
+  right: 10px;
+}
 
 /* BANNER */
 
@@ -298,7 +295,6 @@ body {
 }
 #banner h2 span {
   color: #e96ab4;
-
 }
 #banner button:hover {
   background: #e478b9;
@@ -331,24 +327,24 @@ body {
   background-image: url("img/banner/b188.jpg");
 }
 
-#sm-banner h4{
+#sm-banner h4 {
   color: #fff;
   font-size: 20px;
   font-weight: 800;
 }
-#sm-banner span{
+#sm-banner span {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 15px;
 }
 
-#sm-banner .banner-box:hover button{
+#sm-banner .banner-box:hover button {
   background-color: rgb(219, 219, 173);
   border: 1px;
 }
 
-#banner3{
+#banner3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -370,19 +366,18 @@ body {
   margin-bottom: 20px;
 }
 
-#banner3 .banner-box2{
+#banner3 .banner-box2 {
   background-image: url("img/banner/b4.jpg");
 }
-#banner3 .banner-box3{
+#banner3 .banner-box3 {
   background-image: url("img/banner/b18.jpg");
 }
 
-#banner3 h3{
+#banner3 h3 {
   color: #fff;
   font-weight: 900;
   font-size: 22px;
-} 
-
+}
 
 /* NEWSLETTER */
 
@@ -396,7 +391,6 @@ body {
   align-items: center;
   width: 100%;
 }
-
 
 /* FOOTER */
 footer {
@@ -437,8 +431,8 @@ nav ul li a:hover {
 
 /* RESPONSIVE MEDIA QUERY */
 
-@media (max-width: 799px){
-  #navbar{
+@media (max-width: 799px) {
+  #navbar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -453,7 +447,7 @@ nav ul li a:hover {
     transition: 0.3s;
   }
 
-  #navbar.active{
+  #navbar.active {
     right: 0px;
   }
   #navbar li {
@@ -471,7 +465,7 @@ nav ul li a:hover {
     padding-left: 20px;
   }
 
-  #close{
+  #close {
     display: initial;
     position: absolute;
     top: 30px;
@@ -481,5 +475,10 @@ nav ul li a:hover {
   }
   #lg-bag {
     display: none;
+  }
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
   }
 }
